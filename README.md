@@ -12,9 +12,9 @@ ChainVow lets any two Stellar wallet holders write a mutual commitment on-chain.
 
 | | |
 |---|---|
-| **Frontend** | `https://chainvow.vercel.app` _(update after deploy)_ |
+| **Frontend** | `https://chainvow.vercel.app/` _(update after deploy)_ |
 | **GitHub Repo** | `https://github.com/YOUR_USERNAME/chainvow` |
-| **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CONTRACT_ID_HERE` |
+| **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CD4BKJXVA6G4HDOGIULCNHAGIMRP7W3EI4O3X4IQOY7X6XXCGYOIC5K5` |
 | **Proof Transaction** | `https://stellar.expert/explorer/testnet/tx/TX_HASH_HERE` |
 
 ---
