@@ -13,7 +13,7 @@ ChainVow lets any two Stellar wallet holders write a mutual commitment on-chain.
 | | |
 |---|---|
 | **Frontend** | `https://chainvow.vercel.app` |
-| **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CD4BKJXVA6G4HDOGIULCNHAGIMRP7W3EI4O3X4IQOY7X6XXCGYOIC5K5` |
+| **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CBIVYOVF66XZYUAF3YG6NKJI4R366HLUTHGL2C3WMBSO5HPVO5FNUBZU` |
 
 ---
 
@@ -30,6 +30,16 @@ ChainVow lets any two Stellar wallet holders write a mutual commitment on-chain.
 
 ---
 
+## Why This Project Matters
+
+This project turns a familiar real-world workflow into a verifiable on-chain primitive on Stellar: transparent state transitions, user-authenticated actions, and deterministic outcomes.
+
+## Architecture
+
+- **Smart Contract Layer**: Soroban contract enforces business rules, authorization, and state transitions.
+- **Client Layer**: React + Vite frontend handles wallet UX, transaction composition, and real-time status views.
+- **Wallet/Auth Layer**: Freighter signs every state-changing action so operations are attributable and non-repudiable.
+- **Infra Layer**: Stellar Testnet + Soroban RPC for execution; Vercel for frontend hosting.
 ## Contract Functions
 
 ```rust
@@ -99,3 +109,6 @@ ChainVow Contract (WASM on Stellar testnet)
        └── seal_vow()     → verifies partner auth, sets sealed=true
 ```
 e
+
+
+
